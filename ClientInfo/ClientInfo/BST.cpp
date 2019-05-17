@@ -105,7 +105,7 @@ void BST::Mod(bnode * &loc_ptr,string &name)
 	{
 		cout << "Names cannot be changed" <<endl;
 		cout << "Do you want to change the address?" <<endl;
-		cout << "Y.....YES/tor  /tN.....NO" << endl; 
+		cout << "Y.....YES     or     N.....NO" << endl; 
 		char reply;
 		cin >> reply;
 		reply=toupper(reply);
